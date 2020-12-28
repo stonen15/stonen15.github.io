@@ -1,11 +1,67 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Hello world</title>
+		<title>yikes</title>
+		<!-- Stylesheet -->
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Metrophobic" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
 	</head>
 
 	<body>
-		<h1> I forgot how to use this</h1>
-		<h2> aaaa b c</h2>
+
+		<!-- Header -->
+		<div id="header" style="padding-bottom: 1.5%;">
+			<h1 style="margin-top: 5%; margin-bottom: 0.5%;">Yi Bo Cheng</h1>
+		</div>
+
+		<!-- Nav bar -->
+		<div id="navBar">
+			<a href="#about">About Me</a>
+			<a href="#projects">Projects</a>
+			<a href="">Resume</a>
+		</div>
+
+		<!-- Content -->
+		<div id="content">
+			
+			<div class="box" id="empty1"></div>
+			
+			<div class="box" id="about">
+				<h1 style="font-size: 450%;">About Me</h1>
+				<p style="margin-top: 1%; font-size: 150%;">
+					lol
+				</p>
+			</div>
+
+			<div class="box" id="empty2"></div>
+
+			<div class="box" id="projects">
+				<h1 style="font-size: 450%;">Projects</h1>
+				<p style="margin-top: 1%; font-size: 150%;">
+					lol
+				</p>
+			</div>
+
+		</div>
+
+		<!-- Sticky navBar -->
+		<script>
+			window.onscroll = function() {stickyNav()};
+
+			var navbar = document.getElementById("navBar");
+			var sticky = navbar.offsetTop;
+
+			function stickyNav() {
+			  if (window.pageYOffset >= sticky) {
+			    navbar.classList.add("sticky")
+			  } else {
+			    navbar.classList.remove("sticky");
+			  }
+			}
+		</script>
+
 	</body>
 </html>

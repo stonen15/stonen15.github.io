@@ -1,0 +1,142 @@
+/*
+	Yi Bo Cheng
+	06/02/2020
+	Homepage and Unit Pages 
+	This css file contains the style code for my homepage and unit pages
+*/
+/* Header */
+header{
+	width: 100%;
+	text-align: center;
+}
+header h1{
+	font-size: 500%;
+}
+/* Navigation Bar */
+#navBar{
+	overflow: hidden;
+	background-color: black;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+#navBar a{
+	font-size: 20px;
+	float: left;
+	display: block;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	padding: 1.4% 0.5%;
+	text-decoration: none;
+	width: 32.33%;
+}
+#navBar a:hover{
+	opacity: 0.5;
+	background-color: white;
+	color: black;
+}
+/* Layout and Background */
+*{
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
+}
+.box{
+	width: 100%;
+	height: 1000px;
+	padding-top: 3%;
+}
+#empty1{
+	background-image: url(images/background5.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+#empty2{
+	background-image: url(images/background6.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+/* Fonts, Margin, Padding etc. */
+h1{
+	text-align: center;
+	font-family: 'Metrophobic', sans-serif;
+}
+h2{
+	text-align: center;
+	font-family: 'Metrophobic', sans-serif;
+}
+p{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: auto; 
+	margin-right: auto; 
+	width: 70%; 
+}
+#content h1{
+	margin-top: 2%; 
+	margin-bottom: 2%; 
+	font-size: 350%
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + #content {
+  padding-top: 60px;
+}
+
+
+/* maybe need
+.icons{
+	float: left; 
+	width: 33.33%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	margin-bottom: 5%;
+}
+.icons img{
+	border: 3px solid white;
+	border-radius: 10%; 
+}
+.icons img:hover, .icons2 img:hover{
+	opacity: 50%;
+}
+.icons2{
+	float: left; 
+	width: 50%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3%;
+}
+.icons2 p{
+	font-family: 'Metrophobic', sans-serif;
+	width:1%;
+}
+#section8 img{	
+	width: 250px;
+	height: 250px;
+} 
+#section10 a{
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	background-color: #F2F3F5;
+	color: black;
+	padding: 2%;
+	font-size: 200%;
+	border: solid white;
+}
+#section10 a:hover{ 
+	background-color: white;
+	color: black;
+	border: solid black;
+	opacity: 50%;
+}
+*/
