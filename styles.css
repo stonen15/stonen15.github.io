@@ -29,7 +29,8 @@ header h1{
 	text-align: center;
 	padding: 1.4% 0.5%;
 	text-decoration: none;
-	width: 32.33%;
+	/* (if include resume bar) width: 32.33%;*/
+	width: 49%;
 }
 #navBar a:hover{
 	opacity: 0.5;
@@ -80,9 +81,7 @@ p{
 	margin-bottom: 2%; 
 	font-size: 350%
 }
-
-
-/* maybe need
+/* Icons */
 .icons{
 	float: left; 
 	width: 33.33%;
@@ -94,40 +93,9 @@ p{
 }
 .icons img{
 	border: 3px solid white;
-	border-radius: 10%; 
+	border-radius: 10%;
+	width: 25%;
 }
 .icons img:hover, .icons2 img:hover{
 	opacity: 50%;
 }
-.icons2{
-	float: left; 
-	width: 50%;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 3%;
-}
-.icons2 p{
-	font-family: 'Metrophobic', sans-serif;
-	width:1%;
-}
-#section8 img{	
-	width: 250px;
-	height: 250px;
-} 
-#section10 a{
-	font-family: 'Montserrat', sans-serif;
-	text-decoration: none;
-	background-color: #F2F3F5;
-	color: black;
-	padding: 2%;
-	font-size: 200%;
-	border: solid white;
-}
-#section10 a:hover{ 
-	background-color: white;
-	color: black;
-	border: solid black;
-	opacity: 50%;
-}
-*/
